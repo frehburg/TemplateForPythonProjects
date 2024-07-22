@@ -13,3 +13,4 @@ Subpackages
    :maxdepth: 2
 
    template_for_python_projects.example
+   template_for_python_projects.numpy_example
