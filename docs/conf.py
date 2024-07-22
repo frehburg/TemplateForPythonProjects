@@ -49,9 +49,7 @@ doctest_test_doctest_blocks = ""
 
 # code to be executed before each doctest block
 doctest_global_setup = """ 
-# For printing data frames "as is".
-import pandas as pd
-pd.set_option('expand_frame_repr', False)
+import numpy as np
 """
 
 doctest_default_flags = (doctest.REPORT_ONLY_FIRST_FAILURE
