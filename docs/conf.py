@@ -11,8 +11,8 @@ import sys
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-test3_src = os.path.abspath(os.path.join('..', 'src'))
-sys.path.insert(0, test3_src)
+src_path = os.path.abspath(os.path.join('..', 'src'))
+sys.path.insert(0, src_path)
 
 project = 'test3'
 copyright = '2024, test'
@@ -44,7 +44,7 @@ autodoc_member_order = 'bysource'
 
 # -- Doctest setup ------------------------------------------------------------
 
-doctest_path = [test3_src]
+doctest_path = [src_path]
 doctest_test_doctest_blocks = ""
 
 # code to be executed before each doctest block
