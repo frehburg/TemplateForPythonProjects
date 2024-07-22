@@ -1,5 +1,5 @@
 import pytest
-import test3
+import template_for_python_projects
 
 
 @pytest.mark.parametrize("a, b, expected", [
@@ -9,4 +9,4 @@ import test3
     (2, 2, 0),
 ])
 def test_minus(a, b, expected):
-    assert test3.example.minus.minus(a, b) == expected
+    assert template_for_python_projects.example.minus.minus(a, b) == expected
