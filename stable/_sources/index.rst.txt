@@ -1,9 +1,9 @@
-.. test3 documentation master file, created by
+.. template_for_python_projects documentation master file, created by
    sphinx-quickstart on Mon Jul 22 10:25:34 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to test3's documentation!
+Welcome to template_for_python_projects's documentation!
 =================================
 
 .. toctree::

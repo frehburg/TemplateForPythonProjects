@@ -4,4 +4,4 @@ API reference
 .. toctree::
    :maxdepth: 2
 
-   test3
+   template_for_python_projects

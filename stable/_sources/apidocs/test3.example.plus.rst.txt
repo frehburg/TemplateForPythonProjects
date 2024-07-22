@@ -1,7 +1,0 @@
-test3.example.plus module
-=========================
-
-.. automodule:: test3.example.plus
-   :members:
-   :undoc-members:
-   :show-inheritance:
