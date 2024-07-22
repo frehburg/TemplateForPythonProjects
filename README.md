@@ -54,8 +54,9 @@ If you want to run sphinx locally:
 
 
 You can also add a badge like this one to your README.md file:
-[![Build status](https://github.com/frehburg/TemplateForPythonProjects/workflows/CI/badge.svg)](https://github.com/frehburg/TemplateForPythonProjects/actions/workflows/python_ci.yml)
-
+[![Build status](https://github.com/frehburg/TemplateForPythonProjects/workflows/CI/badge.svg)](https://github.com/frehburg/TemplateForPythonProjects/actions/workflows/python_ci.yml)  
+[Stable Documentation](https://frehburg.github.io/TemplateForPythonProjects/stable/)  
+[Latest Documentation](https://frehburg.github.io/TemplateForPythonProjects/latest/)  
 
 See here a template for your README
 
