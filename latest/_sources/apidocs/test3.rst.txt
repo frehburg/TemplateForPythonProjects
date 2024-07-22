@@ -1,0 +1,15 @@
+test3 package
+=============
+
+.. automodule:: test3
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 2
+
+   test3.example
