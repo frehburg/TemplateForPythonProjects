@@ -25,6 +25,7 @@ Only pull from `develop` to `main` with fully functional, tested and documented 
       - Select an appropriate number of reviewers
       - 
     - `Block force pushes`
+7. Click `Create` to finish. you can now find the ruleset under `Rules`>`Rulesets`
 
 **Actions Permissions**
 1. Go to the repository settings
