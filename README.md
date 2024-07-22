@@ -13,7 +13,18 @@ Only pull from `develop` to `main` with fully functional, tested and documented 
 
 ### Repository Settings
 **Branch Protection Rules**
-TODO: Write this Section
+1. Go to the repository settings
+2. Open `Branches` in the left sidebar
+3. Click `Add branch ruleset`
+4. Choose an appropriate ruleset name, such as `Branch protection rules for main and develop`
+5. Under `target branches`, enter `main` and `develop`
+6. Under `Rules` select at least:
+    - `Restricht deletions`
+    - `Require linear history`
+    - `Require a pull request before merging`
+      - Select an appropriate number of reviewers
+      - 
+    - `Block force pushes`
 
 **Actions Permissions**
 1. Go to the repository settings
@@ -42,7 +53,8 @@ If you want to run sphinx locally:
 
 
 You can also add a badge like this one to your README.md file:
-[![Unit Tests and Code Style](https://github.com/frehburg/PythonTemplate/actions/workflows/python-app.yaml/badge.svg)](https://github.com/frehburg/PythonTemplate/actions/workflows/python-app.yaml)
+[![Build status](https://github.com/frehburg/TemplateForPythonProjects/workflows/CI/badge.svg)](https://github.com/frehburg/TemplateForPythonProjects/actions/workflows/python_ci.yml)
+
 
 See here a template for your README
 
