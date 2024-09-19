@@ -51,6 +51,30 @@ If you want to run sphinx locally:
 - `make.bat` html
 - Open `docs/_build/html/index.html` in your browser
 
+### Submodules
+Sometimes it is necessary to have other repositories as submodules. To initiate this you can follow this tutorial by Git itself on [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). But in essence you need this command:
+
+`git submodule add https://github.com/frehburg/TemplateForPythonProjects`
+
+If you then want to import the submodule as a python package in your code, the ci will not be able to resolve it. To fix this, add the following lines to `python_ci.yml`:
+
+```
+- name: Checkout code
+        uses: actions/checkout@v3
+        with:  # this
+          submodules: true   # this to ensure submodules are checked out
+```
+
+and further down
+
+```
+ run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install --editable .[test,docs]
+          python3 -m pip install --editable ./submodules/TemplateForPythonProjects  # this to install the submodule package
+```
+
+
 
 
 You can also add a badge like this one to your README.md file:
