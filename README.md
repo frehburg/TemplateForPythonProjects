@@ -75,7 +75,7 @@ and further down
 ```
 
 ### Add custom badges to your README
-Please check the tutorial in [custom_badges.md](https://github.com/frehburg/TemplateForPythonProjects/custom_badges.md) for information on creating custom badges for your github repo.
+Please check the tutorial in [custom_badges.md](https://github.com/frehburg/TemplateForPythonProjects/blob/develop/custom_badges.md) for information on creating custom badges for your github repo.
 
 
 
