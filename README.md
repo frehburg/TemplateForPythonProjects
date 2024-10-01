@@ -74,6 +74,9 @@ and further down
           python3 -m pip install --editable ./submodules/TemplateForPythonProjects  # this to install the submodule package
 ```
 
+### Add custom badges to your README
+Please check the tutorial in [custom_badges.md](https://github.com/frehburg/TemplateForPythonProjects/custom_badges.md) for information on creating custom badges for your github repo.
+
 
 
 
