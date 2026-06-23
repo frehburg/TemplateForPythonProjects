@@ -3,8 +3,8 @@ template\_for\_python\_projects.numpy\_example package
 
 .. automodule:: template_for_python_projects.numpy_example
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Submodules
 ----------
