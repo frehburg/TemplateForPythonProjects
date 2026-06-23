@@ -11,7 +11,7 @@ jobs:
       runs-on: ubuntu-latest
       strategy:
         matrix:
-          python-version: ['3.8', '3.9', '3.10', '3.11']
+          python-version: ['3.10', '3.11', '3.12']
 
       steps:
         - uses: actions/checkout@v4
@@ -24,4 +24,4 @@ jobs:
             python3 -m pip install --editable .[test,docs]
         - name: Run pytest tests
           run: |
-            pytest
+            pytest --cov=template_for_python_projects
